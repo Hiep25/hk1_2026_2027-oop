@@ -190,7 +190,7 @@ public class Main {
 
     static void timGanGiong(CDList ql) {
 
-        System.out.print(
+        System.out.println(
             "Nhập từ khóa (tìm gần giống, chứa ở bất kỳ vị trí): "
         );
 
@@ -216,8 +216,7 @@ public class Main {
 
         System.out.printf(
             "Tổng giá thành: %,.2f VNĐ\n",
-            ql.tinhTongGiaThanh()
-        );
+            ql.tinhTongGiaThanh());
 
         System.out.printf(
             "Giá trung bình: %,.2f VNĐ\n",
